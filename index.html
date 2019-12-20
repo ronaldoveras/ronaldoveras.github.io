@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Airspace
+title: Portfólio
 permalink: /
 ---
 
@@ -10,7 +10,7 @@ permalink: /
     <div class="row">
       <div class="col-md-10 col-md-offset-2">
         <div class="block">
-          <h1 class="animated fadeInUp">A DIGITAL MARKETING &#38; <br> DESIGN AGENCY</h1>
+          <h1 class="animated fadeInUp">Um portfólio digital &#38; <br> sobre minha carreira profissional </h1>
           <p class="animated fadeInUp">We love the Web and the work we do. We work closely with our clients to deliver the best possible solutions for their needs</p>
         </div>
       </div>
@@ -163,24 +163,6 @@ permalink: /
         </div>
         {% endif %}
       </div>
-      <div class="col-md-6">
-        {% if site.data.testimonials.size > 0 %}
-        <div class="testimonial-carousel">
-          <div id="testimonial-slider" class="owl-carousel">
-            {% for tm in site.data.testimonials %}
-            <div>
-                <img src="img/cotation.png" alt="IMG">
-                <p>{{ tm.testimonial }}</p>
-                <div class="user">
-                  <img src="{{ tm.image }}" alt="Pepole">
-                  <p><span>{{ tm.name }}</span> {{ tm.title }}</p>
-                </div>
-            </div>
-            {% endfor %}
-          </div>
-        </div>
-        {% endif %}
-      </div>
-    </div>
+
   </div>
 </section>
